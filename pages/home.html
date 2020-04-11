@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../images/spotify-logo.png" alt="logo" width="197px" height="59px">
+        </div>
+        <div class="content">
+            <div class="botao">
+                <button id="inscrever">
+                    <p>
+                    inscrever-se com o facebook
+                    </p>
+                </button>
+            </div>
+            <div class="termos">
+                <input type="checkbox" name="cond" id="check">
+                <p>
+                    Eu aceito os <a href="#">Termos e condições</a> e a <a href="#">Política de privacidade do Spotify</a>.
+                </p>
+            </div>
+            <div class="ou">
+                <div class="linha"></div>
+                <p>ou</p> 
+                <div class="linha"></div>
+            </div>
+            <div class="form">
+                <h3>Inscrever-se com seu endereço de e-mail</h3>
+                <div class="txt">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="email" name="email2" id="email" placeholder="Confimar e-mail">
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <input type="text" name="nome" id="nome" placeholder="Como devemos chamar você?">
+                </div>
+                <div class="nascimento">
+                    <h4>Data de Nascimento</h4>
+                    <div class="datas">
+                        <input type="number" name="dia" id="numero" placeholder="Dia">
+                        <select name="mes" id="numero">
+                            <option value="mes">Mês</option>
+                            <option value="jan">Janeiro</option>
+                            <option value="feb">Feveveiro</option>
+                            <option value="marc">Março</option>
+                            <option value="ab">Abril</option>
+                            <option value="may">Maio</option>
+                            <option value="june">Junho</option>
+                            <option value="july">Julho</option>
+                            <option value="aug">Agosto</option>
+                            <option value="sep">Setembro</option>
+                            <option value="oct">Outubro</option>
+                            <option value="nov">Novembro</option>
+                            <option value="dez">Dezembro</option>
+                        </select>
+                        <input type="number" name="ano" id="numero" placeholder="Ano">
+                    </div>
+                </div>
+                <div class="sexo">
+                    <input type="radio" name="secho" id="male"><p>Masculino</p>
+                    <input type="radio" name="secho" id="female"><p>Feminino</p>
+                    <input type="radio" name="secho" id="outro"> <p>Não binário</p>
+                </div>
+               <div class="politica">
+                   <div class="term">
+                       <input type="checkbox" name="" id=""><p>Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.</p>
+                   </div>
+                   <div class="term">
+                       <input type="checkbox" name="" id=""> <p>Eu aceito os <a href="#">Termos e condições</a> e a <a href="#">Política de privacidade do Spotify</a>.</p>
+                   </div>
+               </div>
+               <div class="recaptcha">
+                   <div id="nao">
+                       <input type="checkbox" name="" id="robo">
+                       <p>
+                           Não sou um robô
+                       </p>
+                   </div>
+                   <img src="../images/reCAPTCHA.png" alt="">
+               </div>
+               <div class="rodape">
+                   <input type="button" value="INSCREVER-SE">
+                    <p>Já tem uma conta? <a href="#">Entrar</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
